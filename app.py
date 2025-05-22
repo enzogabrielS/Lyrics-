@@ -18,7 +18,6 @@ layout_letra = [
     [sg.Multiline('', key='-OUTPUT-', size=(50, 10), disabled=True, autoscroll=True)]
 ]
 
-
 layout = layout_fixo + layout_letra
 
 window = sg.Window('Letra de Música', layout, finalize=True, element_justification='c')
